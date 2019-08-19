@@ -1,0 +1,18 @@
+{
+  "name": "shadow-dom-opener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/content.js",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "terser-webpack-plugin": "^1.4.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "prod": "webpack --config webpack.config.js --mode production"
+  },
+  "author": "serj-kzv",
+  "license": "MIT"
+}

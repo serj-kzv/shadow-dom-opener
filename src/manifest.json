@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "shadow-dom-opener",
+  "description": "shadow-dom-opener",
+  "short_name": "shadow-dom-opener",
+  "author": "serj-kzv",
+  "version": "1",
+  "homepage_url": "https://github.com/serj-kzv/shadow-dom-opener",
+  "content_scripts": [
+    {
+      "js": [
+        "/content.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "match_about_blank": true,
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
