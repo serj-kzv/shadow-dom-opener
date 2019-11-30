@@ -1,5 +1,5 @@
 # What is it?
-It is a Firefox addon that modifies Internet pages behaviour.
+It is a Firefox addon that modifies Internet pages' behaviour.
 
 The Firefox addon opens "closed" Shadow DOM nodes (tags)
 on Internet pages to do them available to JavaScript manipulating.
