@@ -1,3 +1,12 @@
+# What is it?
+It is a Firefox addon that modifies Internet pages behaviour.
+
+The Firefox addon opens "closed" Shadow DOM nodes (tags)
+on Internet pages to do them available to JavaScript manipulating.
+Otherwise it is impossible for user JavaScript (like Greasemonkey scripts)
+and JavaScript plugins to modify inner of these "closed" Shadow DOM nodes.
+Unlike usual "Custom Elements" "closed" Shadow DOM nodes are really impossible to modify without that.
+
 # Installation
 To install the addon go to [releases](https://github.com/serj-kzv/shadow-dom-opener/releases)
 page, download `.xpi` file and drag and drop the file on Mozilla Firefox window.
