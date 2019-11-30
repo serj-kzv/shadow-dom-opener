@@ -2,7 +2,7 @@
 
 console.debug('start');
 
-const main = async () => {
+const main = () => {
     console.debug('start main');
 
     const script = document.createElement('script');
